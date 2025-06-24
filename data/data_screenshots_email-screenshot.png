@@ -1,0 +1,6 @@
+**Placeholder Description for email-screenshot.png**
+
+- **Content**: The screenshot shows the phishing email as displayed in an email client (e.g., Gmail or Outlook). The email header displays "From: PayPal Service <service@paypal-support.com>", a subject line "Urgent: Verify Your PayPal Account Now", and the email body with the text described in `sample-email.txt`. The "Click here to update your information" link is highlighted, and hovering over it (simulated in the screenshot) reveals the fraudulent URL "http://paypal-secure-login.com/update". The screenshot also captures minor formatting issues, such as inconsistent font sizes and awkward spacing, which are subtle indicators of phishing.
+- **Annotations**: Red arrows or circles highlight the spoofed sender address, the suspicious link, and grammatical errors ("flag" instead of "flagged", "informations" instead of "information").
+- **Purpose**: To visually demonstrate the phishing email’s appearance and deceptive elements for educational purposes.
+- **Note**: As I cannot generate or provide actual images, this is a detailed description of what the screenshot would contain. Users can create this screenshot by opening `sample-email.txt` in an email client, capturing the screen, and annotating it with tools like Microsoft Paint or Adobe Photoshop.

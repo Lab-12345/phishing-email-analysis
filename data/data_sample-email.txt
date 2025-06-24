@@ -1,0 +1,21 @@
+From: PayPal Service <service@paypal-support.com>
+To: user@example.com
+Subject: Urgent: Verify Your PayPal Account Now
+Date: Mon, 23 Jun 2025 10:15:30 -0700
+
+Dear PayPal Customer,
+
+Your account has been flag for suspicious activity. You must verify your account within 24 hours, or it will be permanently suspended.
+
+Please to update your informations now by clicking the link below:
+
+<a href="http://paypal-secure-login.com/update">Click here to update your information</a>
+
+If you do not verify your account, you may lose access to your funds and account features.
+
+Thank you,
+PayPal Security Team
+
+---
+
+Note: This is a sample phishing email for educational purposes. Do not click any links or provide personal information.

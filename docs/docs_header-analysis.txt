@@ -1,0 +1,20 @@
+# Email Header Analysis Output
+# Generated using MXToolbox Email Header Analyzer on June 24, 2025
+
+Received: from [192.168.1.100] (unknown [45.32.123.456]) by mail.paypal-support.com (Postfix) with ESMTP id 4J8K9L2Z3Q for <user@example.com>; Mon, 23 Jun 2025 10:15:32 -0700 (PDT)
+From: PayPal Service <service@paypal-support.com>
+To: user@example.com
+Reply-To: support@secure-paypal.net
+Subject: Urgent: Verify Your PayPal Account Now
+Date: Mon, 23 Jun 2025 10:15:30 -0700
+Message-ID: <20250623101530.12345@paypal-support.com>
+DKIM-Signature: v=1; a=rsa-sha256; d=paypal-support.com; s=selector1; h=from:to:subject:date; bh=abc123...; b=xyz789...
+X-Spam-Status: No, score=4.5
+Authentication-Results: mail.paypal-support.com; dkim=fail (signature verification failed)
+
+# Analysis Notes
+- **Received Header**: The originating IP (45.32.123.456) is not associated with PayPal's official mail servers. Reverse DNS lookup shows it belongs to a third-party hosting provider, not PayPal.
+- **Reply-To Mismatch**: The "Reply-To" address (support@secure-paypal.net) differs from the sender's domain (paypal-support.com), indicating potential spoofing.
+- **DKIM Failure**: The DKIM signature failed verification, suggesting the email was not sent by the claimed domain.
+- **Spam Score**: A spam score of 4.5 indicates moderate suspicion, consistent with phishing characteristics.
+- **Conclusion**: The header analysis confirms discrepancies typical of phishing emails, including non-official IP origins and authentication failures.
